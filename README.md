@@ -2,8 +2,12 @@
 
 This is a FHIR server built on Asymmetrik node-fhir-server-core framework, with a sqlite database as data store. 
 
-Here I experimented a new database structure, in which the data fields in relational database correlates to the first level resource structure. 
-Instead of the store in which the whole resource is stored as one entry in one cell. This simplifies the mapping from JSON resource to a relational database, and can eliminate mapping once fully implemented. 
+Here I experimented a new database structure, in which the data fields in relational database correlates to the first level resource structure, instead of storing the whole resource as one entry as in the HAPI fhir implementation. This simplifies the mapping from JSON resource to its data store, and could potentially eliminate mapping in a fully implemented server. 
+
+HAPI FHIR data store: (RES_TEXT stores full resource content)
+
+<img width="241" alt="Screen Shot 2021-09-14 at 3 16 18 PM" src="https://user-images.githubusercontent.com/48110809/133320524-9165bc74-4c5d-4064-a1e2-65ccc6387103.png">
+
 
 Data Tables:
 
