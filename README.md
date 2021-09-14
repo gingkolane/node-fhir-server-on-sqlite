@@ -1,4 +1,4 @@
-# node-fhir-server-sqlite
+# node-fhir-server-on-sqlite
 
 This is a FHIR server built on Asymmetrik node-fhir-server-core framework, with a sqlite database as data store. 
 
