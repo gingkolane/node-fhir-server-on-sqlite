@@ -1,6 +1,6 @@
 # node-fhir-server-on-sqlite
 
-This is a FHIR server built on Asymmetrik node-fhir-server-core framework, with a sqlite database as data store. 
+This is a FHIR server built on Asymmetrik node-fhir-server-core framework (https://github.com/Asymmetrik/node-fhir-server-core), with a sqlite database as data store. 
 
 Here I experimented a new database structure, in which the data fields in relational database correlates to the first level resource structure, instead of storing the whole resource as one entry as in the HAPI fhir implementation. This simplifies the mapping from JSON resource to its data store, and could potentially eliminate mapping in a fully implemented server. 
 
