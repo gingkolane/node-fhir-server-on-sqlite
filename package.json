@@ -1,0 +1,15 @@
+{
+  "name": "node-fhir-server-sqlite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gingkolane/node-fhir-server-sqlite.git",
+  "author": "gingkolane <gingkolane@gmail.com>",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@asymmetrik/node-fhir-server-core": "^2.2.3",
+    "better-sqlite3": "^7.1.5"
+  }
+}
